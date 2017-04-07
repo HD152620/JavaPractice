@@ -80,10 +80,10 @@ public class Snack {
 	/**
 	 * @param number the number to set
 	 */
-//	public void setNumber(int number) {
-//		this.number = number;
-//	}
-//	
+	public void setNumber(int number) {
+		this.number = number;
+	}
+	
 	public int calcPrice(){
 		return price * number;
 	}
